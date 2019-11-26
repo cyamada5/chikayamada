@@ -1,0 +1,145 @@
+@charset "UTF-8";
+
+
+body{
+  width: 1920/2px;
+  height: 3198/2px;
+  font-family: 'Kosugi Maru', sans-serif;
+  background-size: 60px 60px;  
+  /* margin: 0 auto; */
+  background-color: #FCE373;
+  background-image: radial-gradient(rgba(255, 255, 255, 0.5) 30%, transparent 30%), radial-gradient(rgba(255, 255, 255, 0.5) 30%, transparent 30%);
+  background-position: 0 0, 30px 30px;
+  }
+
+main{
+  margin: 50px 100px;
+  background: #FCE373 0% 0% no-repeat padding-box;
+  border: 9px solid #A5D1F4;
+  border-radius: 97px;
+}
+
+a:link { color: #A5D1F4; }
+a:visited { color: #A5D1F4; }
+a:hover { color: #A5D1F4; }
+a:active { color: #A5D1F4; }
+
+nav{
+  font-size: 42px;
+  margin-top: 50px;
+  margin-left: 30px;
+  background-color: #FCE373;
+  border-radius: 30px;
+  width: 20%;
+  height: 80px;
+  text-align: center;
+  line-height:80px;
+  letter-spacing: 2.77px;
+  color: #A5D1F4;
+  opacity: 1;
+  display: inline-block;
+  transition: 3s;
+}
+
+nav:hover{
+
+  transform: rotate(1turn);
+
+}
+
+h1{
+  /* width: 360px;
+  /* height: 396/4px;
+
+  background: transparent url('img/タイトル.png') 0% 0% no-repeat padding-box;
+  opacity: 1; */
+  max-width: 100%;
+  
+  height: auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 50px; 
+}
+/* -------------header------------ */
+
+h2{
+  font-size: 50px;
+  text-align: center;
+  letter-spacing: 2.38px;
+  color: #A5D1F4;
+  opacity: 1;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.profile-area{
+  margin-bottom: 100px;
+}
+
+.plofile-box p{
+  font-size: 31px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2.38px;
+  color: #A5D1F4;
+  opacity: 1;  
+  margin-bottom: 10px;
+}
+/* -------------profile------------ */
+
+.fovorite-area{
+
+}
+
+.photos{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 27%;
+  padding-left: 27%;
+  /* padding: 27%;  */
+  width: 50%;
+
+}
+
+
+.photos img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-left: 35%;
+  margin-right: 35%;
+  margin-bottom: 15px;  */
+}
+
+
+figure img:hover{
+  filter: blur(10px)
+}
+
+
+.fovorite-area h3,p{
+  width: 100%;
+  text-align: center;
+  letter-spacing: 2.38px;
+  color: #A5D1F4;
+  opacity: 1;  
+  margin-bottom: 10px;
+}
+
+.fovorite-area h3{
+  font-size: 31px;
+}
+.fovorite-area p{
+  font-size: 15px;
+}
+
+/* -------------favorite------------ */
