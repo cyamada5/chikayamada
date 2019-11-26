@@ -29,6 +29,7 @@ nav{
   margin-top: 50px;
   margin-left: 30px;
   background-color: #FCE373;
+  border: solid 6px #A5D1F4;
   border-radius: 30px;
   width: 20%;
   height: 80px;
@@ -42,7 +43,6 @@ nav{
 }
 
 nav:hover{
-
   transform: rotate(1turn);
 
 }
@@ -116,9 +116,9 @@ h2{
 }  */
 
 
-figure img:hover{
+/* figure img:hover{
   filter: blur(10px)
-}
+} */
 
 
 .fovorite-area h3,p{
@@ -127,7 +127,7 @@ figure img:hover{
   letter-spacing: 2.38px;
   color: #A5D1F4;
   opacity: 1;  
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 .fovorite-area h3{
@@ -137,7 +137,6 @@ figure img:hover{
   font-size: 25px;
 }
 
-/* -------------favorite------------ */
 
 .cp_cssslider {
 	width: 900px;
@@ -155,7 +154,7 @@ figure img:hover{
 	width: 600%;/* slideの枚数×100% */
 	position: relative;
 	left: 0;
-	animation: slider 20s infinite ease;/* スピード */
+	animation: slider 30s infinite ease;/* スピード */
 }
 @-webkit-keyframes slider {
 	/* 100%を枚数で割った%に割り振る */
@@ -211,3 +210,4 @@ figure img:hover{
 	transform: translateX(0);
 	}
 }
+/* -------------favorite------------ */
